@@ -191,6 +191,8 @@ form div {
 @media only screen and (max-width: 1024px) {
     main {
         width: 100%;
+        justify-items: center;
+        justify-content: center;
     }
 }
 
@@ -198,7 +200,6 @@ form div {
     
     main {
         width: 100%;
-        justify-content: center;
     }
 
     .project div img {
