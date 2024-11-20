@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(208, 242, 235);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+header h1 {
+    margin: 2rem;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 0.8fr 0.7fr 0.55fr 2fr;
+    grid-auto-flow: column;
+    align-content: center;
+}
+
+header nav a {
+    text-decoration: underline 2px transparent;
+    transition: text-decoration 0.3s linear;
+    color: black;
+    margin: 0.3rem;
+}
+
+header nav a:hover {
+    text-decoration: underline 2px;
+    width:100%;
+}
+
+main {
+    justify-items: center;
+}
+
+.cta {
+    text-decoration: none;
+    border: solid 0.3rem rgb(46, 111, 146);
+    border-radius: 10px;
+    padding: 1.2rem 5rem;
+    font-size: 1rem;
+    background-color:rgb(112, 193, 215);
+    transition: all 0.1s ease-in;
+}
+
+.cta:hover {
+    scale: 1.1;
+    font-size: 1.1em;
+}
+
+.cta:active {
+    border-color: black;
+}
+
+
+/* contact.html styling */
+#contactheader {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contactheader nav {
+    display: block;
+    margin: 2rem;
+}
+
+#mail, #message, #submit {
+    display: block;
+    margin: 2px 0;
+}
+
+form {
+    justify-items: center;
+}
+
+form div {
+    margin: 30px 0px;
+    justify-items: center;
+}
