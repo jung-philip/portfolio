@@ -181,6 +181,7 @@ form div {
     border: var(--buttonborder);
     width: 15rem;
     background-color: var(--buttonbackground);
+    color: var(--textcolor);
 }
 
 
