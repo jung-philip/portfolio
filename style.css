@@ -188,14 +188,6 @@ form div {
 
 /* small screen */
 
-@media only screen and (max-width: 1024px) {
-    main {
-        width: 100%;
-        justify-items: center;
-        justify-content: center;
-    }
-}
-
 @media only screen and (max-width: 480px) {
     
     main {
