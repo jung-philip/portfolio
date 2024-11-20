@@ -190,7 +190,7 @@ form div {
 @media only screen and (max-width: 400px) {
     
     main {
-        width: 80%;
+        width: 100%;
     }
     
     .project div img {
