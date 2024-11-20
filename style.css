@@ -188,6 +188,12 @@ form div {
 
 /* small screen */
 
+@media only screen and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     
     main {
