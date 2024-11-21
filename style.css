@@ -57,7 +57,7 @@ main {
     justify-items: center;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    max-width: 75rem;
 }
 
 
@@ -70,6 +70,7 @@ main {
     justify-items: center;
     background-color: var(--background2);
     margin: 0;
+    width: 100%;
     padding-bottom: 3rem;
 }
 
@@ -147,7 +148,7 @@ main {
     display: flex;
     background-color: var(--background2);
     padding-bottom: 3rem;
-
+    width: 75rem;;
 }
 
 #contactheader {
